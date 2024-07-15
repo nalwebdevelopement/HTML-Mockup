@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="mainHeader">
+      <!-- 1. Create 2 Seperate Divs that display your name and todays date -->
+      
+      <div class="name">Nalini Udhayakumar</div>
+    <h1>International Restaurants</h1>
+    <div class="dat">
+      <p id="date1" > Date </p>
+      <p>/</p>
+      <p id="month" > Month </p>
+      <p>/</p>
+      <p id="year" > Date </p>
+    </header>
+    </div>
+    <!-- Nav -->
+    <nav class="navbar">
+      <h2 style="font-style: italic; font-size: 30px; font-family: fantasy; color:purple">Click and explore </h2>
+       <!-- 2. Create 4 Nav Tabs with Hyperlinks to your favorite shopping sites -->
+      
+       <br>
+       <a href="https://www.meritorestaurante.com/" >
+        <div class="shop" id="amazon"> Merito Lima Peru</div></a>
+        <a href="https://olivebarandkitchen.com/" >
+       <div class="shop" id="walmart">SodaBottleOpenerWala (Bombay, India)</div></a>    
+       <a href="https://soilrestaurant.gr/" >
+       <div class="shop" id="Macys">Soil (Athens, Greece)</div></a>
+       
+       <!-- 2a. Lined up Evenly but with different backgroundColors  -->  
+    </nav>
+    <!-- ---------------------- -->
+    
+    <div class="sectionContainer">
+    <section class="hero">
+        <img class="inter" src="https://media-cdn.tripadvisor.com/media/photo-s/12/bc/06/31/liv-international-restaurant.jpg" alt="International"/> 
+        <img class="inter" src="https://www.foodandwine.com/thmb/duJiduplm7Qo7i4mLvEoGiF3_54=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/global-tastemakers-international-hotel-restaurants-raffles-at-owo-818d045f49ee44fd8b0431545f023c94.jpg" alt="International"/> 
+    </section>
+     <section id="menu">
+       
+        <table>
+            <tr>
+            <th>Items</th>
+                 
+            <th>Price</th>
+            </tr>   
+            <tr>
+                <td> Sushi</td>
+                <td> 15$</td>
+               
+            </tr>
+            <tr>
+                <td> Flafal</td>
+                <td> 15$</td>
+            </tr>   
+            <tr>
+                <td> Taco</td>
+                <td> 15$</td>
+            </tr>
+         </table>
+        
+      </section>
+      <section id="food">
+      <div class="img"><p style="font-size:15px">Sushi</p>
+        <img  src="https://www.justonecookbook.com/wp-content/uploads/2023/05/Vegetarian-Sushi-Rolls-9707-I-1.jpg" alt="Sushi"/>
+        <pre>     Sushi is a Japanese dish that features medium-grained rice cooked in vinegar, 
+         served with raw or cooked seafood and a variety of toppings or fillings.
+         Contrary to popular belief, rice is the main component of sushi, not raw fish.</pre>
+      </div>
+      <h1>Internationl Foods</h1>
+      <h1></h1>
+      <br>
+      <div class="img"> <p style="font-size:15px">Falafal</p>
+        <img src="https://tse1.mm.bing.net/th?id=OIP.8jDiY1OnNRJvL7LZrzbNUQHaLH&pid=Api&rs=1&c=1&qlt=95&w=82&h=124" alt="Flafal">
+        <pre>     Falafel  is a deep-fried ball or patty-shaped fritter of Egyptian origin, 
+        featuring in Middle Eastern cuisine, particularly Levantine cuisines, and
+         is made from broad beans, ground  chickpeas, or both.</pre>
+      </div>
+    </section>
+      <section>
+      <p id="textgrow"> Choose me!!!</p> 
+      <p id="textgrow"> grab the offer 5% !!!!</p>
+    </section>  
+    </div>
+    <!-- section1: Table with 2 rows -->
+     
+    <!-- section2: 2 images both with txt boxes below them describing pic -->
+    <!-- section3: randomText that increases in size when hovered over it -->
+    <!-- --------------productsSection -->
+
+    <!-- Article -->
+    <!-- img  ---- -txtDesc -->
+
+    <!-- ---------------------- -->
+    <!-- Footer -->
+    <script >
+         
+         
+         const date1 = document.getElementById("date1");
+         const today = new Date();
+         date1.innerHTML = today.getDate();
+         const month = document.getElementById("month");
+         month.innerHTML = today.getMonth();
+         const year= document.getElementById("year");
+         year.innerHTML = today.getFullYear();
+</script>
+
+  </body>
+</html> 
